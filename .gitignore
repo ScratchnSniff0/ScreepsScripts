@@ -58,3 +58,9 @@ sketch
 
 package-lock.json
 **/.eslintcache
+
+# screeps specific
+# .screeps.json contain things that would be a security issue for the game account,
+# .wasm needs to be compiled each time anyway
+/.screeps.json
+.wasm
